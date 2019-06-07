@@ -1,0 +1,96 @@
+inst:IfcWallStandardCase_75347
+
+inst:IfcProductDefinitionShape_75342
+
+inst:IfcProductDefinitionShape_75342
+        ifcowl:representations_IfcProductRepresentation  inst:IfcRepresentation_List_62570 .
+		
+inst:IfcRepresentation_List_62570
+
+inst:IfcRepresentation_List_62570
+        list:hasContents  inst:IfcShapeRepresentation_75325 ;
+        list:hasNext      inst:IfcRepresentation_List_62571 .
+		
+inst:IfcShapeRepresentation_75325
+        rdf:type  ifcowl:IfcShapeRepresentation ;
+        ifcowl:contextOfItems_IfcRepresentation  inst:IfcGeometricRepresentationSubContext_118 ;
+        ifcowl:representationIdentifier_IfcRepresentation  inst:IfcLabel_44563 ;
+        ifcowl:representationType_IfcRepresentation  inst:IfcLabel_47841 .
+		ifcowl:items_IfcRepresentation  inst:IfcBooleanClippingResult_75324 .
+		
+inst:IfcLabel_44563  rdf:type  ifcowl:IfcLabel ;
+        express:hasString  "Body" 
+		
+inst:IfcLabel_47841  rdf:type  ifcowl:IfcLabel ;
+        express:hasString  "Clipping" .
+		
+		
+inst:IfcGeometricRepresentationSubContext_118
+        ifcowl:contextIdentifier_IfcRepresentationContext  inst:IfcLabel_44563 ;
+        ifcowl:contextType_IfcRepresentationContext  inst:IfcLabel_44404 ;
+        ifcowl:parentContext_IfcGeometricRepresentationSubContext  inst:IfcGeometricRepresentationContext_62 ;
+        ifcowl:targetView_IfcGeometricRepresentationSubContext  ifcowl:MODEL_VIEW .
+		
+inst:IfcLabel_44563  rdf:type  ifcowl:IfcLabel ;
+        express:hasString  "Body" .
+		
+inst:IfcLabel_44404  rdf:type  ifcowl:IfcLabel ;
+        express:hasString  "Model" .
+		
+		
+inst:IfcRepresentation_List_62571
+        list:hasContents  inst:IfcShapeRepresentation_75331 ;
+        list:hasNext      inst:IfcRepresentation_List_62572 .
+		
+inst:IfcShapeRepresentation_75331
+        rdf:type  ifcowl:IfcShapeRepresentation ;
+        ifcowl:contextOfItems_IfcRepresentation  inst:IfcGeometricRepresentationSubContext_375 ;
+        ifcowl:representationIdentifier_IfcRepresentation  inst:IfcLabel_45055 ;
+        ifcowl:representationType_IfcRepresentation  inst:IfcLabel_45062 .
+		ifcowl:items_IfcRepresentation  inst:IfcBoundingBox_75330 .
+		
+inst:IfcLabel_45055  rdf:type  ifcowl:IfcLabel ;
+        express:hasString  "Box" .		
+				
+inst:IfcLabel_45062  rdf:type  ifcowl:IfcLabel ;
+        express:hasString  "BoundingBox" .	
+		
+		
+inst:IfcBoundingBox_75330
+        ifcowl:corner_IfcBoundingBox  inst:IfcCartesianPoint_67517 ;
+        ifcowl:xDim_IfcBoundingBox    inst:IfcLengthMeasure_44578 ;
+        ifcowl:yDim_IfcBoundingBox    inst:IfcLengthMeasure_47344 ;
+        ifcowl:zDim_IfcBoundingBox    inst:IfcLengthMeasure_47352 .		
+		
+inst:IfcLengthMeasure_44578
+        rdf:type           ifcowl:IfcLengthMeasure ;
+        express:hasDouble  "12."^^xsd:double .		
+		
+		
+inst:IfcRepresentation_List_62572
+        list:hasContents  inst:IfcShapeRepresentation_75339 		
+		
+		
+inst:IfcShapeRepresentation_75339
+        rdf:type                        ifcowl:IfcShapeRepresentation ;
+        ifcowl:contextOfItems_IfcRepresentation  inst:IfcGeometricRepresentationSubContext_15026 ;
+        ifcowl:representationIdentifier_IfcRepresentation  inst:IfcLabel_47859 ;
+        ifcowl:representationType_IfcRepresentation  inst:IfcLabel_47860 ;
+        ifcowl:items_IfcRepresentation  inst:IfcPolyline_75337 .		
+		
+		
+inst:IfcLabel_47859  rdf:type  ifcowl:IfcLabel ;
+        express:hasString  "Axis" .
+		
+inst:IfcLabel_47860  rdf:type  ifcowl:IfcLabel ;
+        express:hasString  "Curve2D" 
+
+inst:IfcPolyline_75337
+        ifcowl:points_IfcPolyline  inst:IfcCartesianPoint_List_62562 .		
+		
+inst:IfcCartesianPoint_List_62562
+        list:hasContents  inst:IfcCartesianPoint_67486 ;
+        list:hasNext      inst:IfcCartesianPoint_List_62563 .
+		
+inst:IfcCartesianPoint_67486
+        ifcowl:coordinates_IfcCartesianPoint  inst:IfcLengthMeasure_List_47802 .

@@ -1,0 +1,59 @@
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix bot:   <https://w3id.org/bot#> .
+
+<http://linkedbuildingdata.net/ifc/resources20170627_105709/IfcBuilding_104>
+        a                bot:Building ;
+        geo:hasGeometry  <urn:geom:pt:3dW$chZ2P2nBViVyUAoHql> .
+
+<urn:geom:pt:1Y9nGTxX90dwWkO9TbXfOF>
+        geo:asWKT  "LINESTRING (-71.1422481967984 42.44654741661628, -71.1422481967984 42.30586065696551) "^^geo:wktLiteral .
+
+<urn:geom:pt:1Y9nGTxX90dwWkO9TbXfRB>
+        geo:asWKT  "LINESTRING (-71.06229813650064 42.445884539712324, -71.14134988151416 42.445884539712324) "^^geo:wktLiteral .
+
+<urn:geom:pt:1Y9nGTxX90dwWkO9TbXfRL>
+        geo:asWKT  "LINESTRING (-71.0613998212164 42.30718936308941, -71.0613998212164 42.44654741661628) "^^geo:wktLiteral .
+
+<http://linkedbuildingdata.net/ifc/resources20170627_105709/IfcSite_2421>
+        a                bot:Site ;
+        geo:hasGeometry  <urn:geom:pt:1Y9nGTxX90dwWkO9TbXfao> ;
+        bot:hasBuilding  <http://linkedbuildingdata.net/ifc/resources20170627_105709/IfcBuilding_104> .
+
+<urn:geom:pt:1Y9nGTxX90dwWkO9TbXfOd>
+        geo:asWKT  "LINESTRING (-71.14134988151416 42.30652501353296, -71.06050150593215 42.30652501353296) "^^geo:wktLiteral .
+
+<http://linkedbuildingdata.net/ifc/resources20170627_105709/IfcWallStandardCase_1022>
+        a                bot:Element ;
+        geo:hasGeometry  <urn:geom:pt:1Y9nGTxX90dwWkO9TbXfRf> .
+
+<http://linkedbuildingdata.net/ifc/resources20170627_105709/IfcWallStandardCase_960>
+        a                bot:Element ;
+        geo:hasGeometry  <urn:geom:pt:1Y9nGTxX90dwWkO9TbXfRB> .
+
+<http://linkedbuildingdata.net/ifc/resources20170627_105709/IfcWallStandardCase_1084>
+        a                bot:Element ;
+        geo:hasGeometry  <urn:geom:pt:1Y9nGTxX90dwWkO9TbXfQC> .
+
+<urn:geom:pt:3dW$chZ2P2nBViVyUAoHql>
+        geo:asWKT  "MULTILINESTRING ((-71.08924759502798 42.37557981340299, -71.08924759502798 42.30718936308941) , (-71.14134988151416 42.37624343372809, -71.06229813650064 42.37624343372809) , (-71.06229813650064 42.445884539712324, -71.14134988151416 42.445884539712324) , (-71.0613998212164 42.30718936308941, -71.0613998212164 42.44654741661628) , (-71.14134988151416 42.30652501353296, -71.06050150593215 42.30652501353296) , (-71.1422481967984 42.44654741661628, -71.1422481967984 42.30586065696551) )"^^geo:wktLiteral .
+
+<http://linkedbuildingdata.net/ifc/resources20170627_105709/IfcWallStandardCase_836>
+        a                bot:Element ;
+        geo:hasGeometry  <urn:geom:pt:1Y9nGTxX90dwWkO9TbXfOd> .
+
+<urn:geom:pt:1Y9nGTxX90dwWkO9TbXfRf>
+        geo:asWKT  "LINESTRING (-71.14134988151416 42.37624343372809, -71.06229813650064 42.37624343372809) "^^geo:wktLiteral .
+
+<http://linkedbuildingdata.net/ifc/resources20170627_105709/IfcWallStandardCase_696>
+        a                bot:Element ;
+        geo:hasGeometry  <urn:geom:pt:1Y9nGTxX90dwWkO9TbXfOF> .
+
+<http://linkedbuildingdata.net/ifc/resources20170627_105709/IfcWallStandardCase_898>
+        a                bot:Element ;
+        geo:hasGeometry  <urn:geom:pt:1Y9nGTxX90dwWkO9TbXfRL> .
+
+<urn:geom:pt:1Y9nGTxX90dwWkO9TbXfao>
+        geo:asWKT  "POINT (-71.05977630611112 42.358428955)"^^geo:wktLiteral .
+
+<urn:geom:pt:1Y9nGTxX90dwWkO9TbXfQC>
+        geo:asWKT  "LINESTRING (-71.08924759502798 42.37557981340299, -71.08924759502798 42.30718936308941) "^^geo:wktLiteral .
